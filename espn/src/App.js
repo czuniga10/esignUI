@@ -1,29 +1,26 @@
 import React from 'react';
-import "./App.css";
-import { makeStyles } from '@material-ui/core/styles';
-import LinearProgress from '@material-ui/core/LinearProgress';
+import logo from './logo.svg';
+import './App.css';
 
-const useStyles = makeStyles({
-  root: {
-    flexGrow: 1,
-  },
-  colorPrimary: {
-    backgroundColor: '#00000',
-  }
-});
-
-export default function App() {
-  const classes = useStyles();
-  const message_arr = ["loading..."];
-
+function App() {
   return (
-    
-    <div className={classes.root}>
-      <div className="header"></div>
-      <div className ="loader-wrapper">
-        <div className="loader-message">{message_arr}</div>
-        <LinearProgress colorSecondary/>
-      </div>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
+
+export default App;

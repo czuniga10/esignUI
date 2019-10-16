@@ -20,21 +20,3 @@
 .App-link {
   color: #09d3ac;
 }
-
-.header {
-  height: 45vh;
-}
-
-.loader-wrapper {
-  width: 68%;
-  margin: auto;
-}
-
-.loader-message {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  width: 50%;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 10px;
-}
